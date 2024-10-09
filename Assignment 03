@@ -1,1 +1,69 @@
+Q.1)
+#To Calculate the length of transition curve
+V= int(input("Enter the value of design speed: "))
+R= int(input("Enter the value of Radius of curvature: ")
+N= int(input("Enter the value of slope: "))
+W=float(input("Enter the value of width of road including extra widening: ")
+emax=float(input("'enter the value for plain terain:"))
+ecal= (V*V/(225*R))
+print("The value of Super elevation:",ecal) if ecal<emax:
+print(ecal) else:
+print(emax) Ls=(emax*N*W/2)
+print("The length of transition curve:", Ls)
+Output
+Enter the value of design speed: 65
+enter the value of Radius of curvature: 220 Enter the value of slope: 150
+Enter the value of width of road including extra widening: 7.5 enter the value for plain terain:0.07
+The value of Super elevation: 0.08535353535353535 8 0.07
+The length of transition curve: 39.37500000000001
 
+Q.2) 
+INPUT
+#To Calculate the length of transition curve
+V= int(input("Enter the value of design speed: "))
+R= int(input("Enter the value of Radius of curvature: ")
+N= int(input("Enter the value of slope: "))
+W=float(input("Enter the value of width of road including extra widening: ")
+emax=float(input("'enter the value for plain terain:"))
+ecal= (V*V/(225*R))
+print("The value of Super elevation:",ecal) if ecal<emax:
+print(ecal) else:
+print(emax) Ls=(emax*N*W/2)
+print("The length of transition curve:", Ls)
+Output
+Enter the value of design speed: 65
+enter the value of Radius of curvature: 220 Enter the value of slope: 150
+Enter the value of width of road including extra widening: 7.5 enter the value for plain terain:0.07
+The value of Super elevation: 0.08535353535353535 8 0.07
+The length of transition curve: 39.37500000000001
+
+Q.3)
+P =
+p =
+M = int (input ("Total Number of layers in a given Pavement : "))
+pi = 3.14159
+float (input(" Load in kg: "))
+CBR = []
+float (input (" Tyre pressure kg/cm^2: "))
+foriin range (1, M+1):
+T = ((1.75*P)/ (CBR_value) - (P/(p*pi)) )**0. 5
+print ("Thickness Above this layer: ", T, "cm")
+print ("Given that bitumen layer of 4 cm")
+print ("California Bearing Ratio of Material in %")
+CBR_value = float (input (0)
+Output:
+4.38
+CBR. append (CBR_Value)
+Load in kg: 4085
+Tyre pressure kg/cm^2: 7
+6
+Total Number of layers in a given Pavement: 3
+California Bearing Ratio of Material in %
+12
+Thickness Above this layer: 38.03 1276487723645 cm
+California Bearing Ratio of Material in %
+Thickness Above this layer: 31.712799015896838 cm
+California Bearing Ratio of Material in %
+PrasadAt
+Thickness Above this layer: 20.24777653857333>cm
+Given that bitumen layer of 4 cm
